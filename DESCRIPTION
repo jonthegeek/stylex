@@ -1,0 +1,19 @@
+Package: stylex
+Title: Neural Style Transfer Assistant
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jon",
+           family = "Harmon",
+           role = c("aut", "cre"),
+           email = "jonthegeek@gmail.com",
+           comment = c(ORCID = "0000-0003-4781-4346"))
+Description: Neural style transfer is the process of using the style of one 
+    image and the content of another to produce a new image (Gatys, Ecker, 
+    Bethge (2015) <arXiv:1508.06576>). Implementing style transfer often 
+    involves multiple iterations to dial in the desired effect. This package
+    aims to guide the user through that process.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
