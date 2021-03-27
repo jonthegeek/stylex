@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Codecov test
+coverage](https://codecov.io/gh/jonthegeek/stylex/branch/main/graph/badge.svg)](https://codecov.io/gh/jonthegeek/stylex?branch=main)
 <!-- badges: end -->
 
 Neural style transfer is the process of using the style of one image and
@@ -13,6 +15,9 @@ the content of another to produce a new image ([Gatys, Ecker,Bethge
 Implementing style transfer often involves multiple iterations to dial
 in the desired effect. This package aims to guide the user through that
 process.
+
+This package was heavily inspired by a [blog by Athos
+Damiani](https://blog.curso-r.com/posts/2021-02-22-neural-style-transfer/).
 
 ## Installation
 
