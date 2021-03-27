@@ -1,4 +1,5 @@
 test_that(".calculate_content_loss calculates content loss", {
+  skip_if_not(torch::torch_is_installed())
   content_data <- 1:5
   generated_data <- content_data
   generated_data[[1]] <- 2L
@@ -20,6 +21,7 @@ test_that(".calculate_content_loss calculates content loss", {
 })
 
 test_that(".calculate_style_loss calculates style loss", {
+  skip_if_not(torch::torch_is_installed())
   style_data <- array(1, dim = c(1, 2, 2, 2))
   generated_data <- style_data*2
   style_layer <- torch::torch_tensor(
