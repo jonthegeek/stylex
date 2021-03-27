@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Codecov test coverage](https://codecov.io/gh/jonthegeek/stylex/branch/main/graph/badge.svg)](https://codecov.io/gh/jonthegeek/stylex?branch=main)
+[![R-CMD-check](https://github.com/jonthegeek/stylex/workflows/R-CMD-check/badge.svg)](https://github.com/jonthegeek/stylex/actions)
 <!-- badges: end -->
 
 Neural style transfer is the process of using the style of one  image and the content of another to produce a new image ([Gatys, Ecker,Bethge (2015) <arXiv:1508.06576>](https://arxiv.org/abs/1508.06576)). 

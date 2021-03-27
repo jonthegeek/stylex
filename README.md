@@ -7,6 +7,7 @@
 
 [![Codecov test
 coverage](https://codecov.io/gh/jonthegeek/stylex/branch/main/graph/badge.svg)](https://codecov.io/gh/jonthegeek/stylex?branch=main)
+[![R-CMD-check](https://github.com/jonthegeek/stylex/workflows/R-CMD-check/badge.svg)](https://github.com/jonthegeek/stylex/actions)
 <!-- badges: end -->
 
 Neural style transfer is the process of using the style of one image and
