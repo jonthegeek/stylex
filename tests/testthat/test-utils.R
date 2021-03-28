@@ -77,4 +77,25 @@ test_that(".calculate_style_loss calculates style loss", {
     as.numeric(style_loss),
     0
   )
+
+  # Fail gracefully for misshapen vectors.
+  style_data <- array(1, dim = c(2, 1, 2, 2))
+  generated_data <- style_data*2
+  style_layer <- torch::torch_tensor(
+    data = style_data,
+    dtype = torch::torch_float()
+  )
+  generated_layer <- torch::torch_tensor(
+    data = generated_data,
+    dtype = torch::torch_float()
+  )
+  expect_error(
+    .calculate_style_loss(
+      list(style_layer),
+      list(generated_layer),
+      1
+    ),
+    class = "tensor_shape_error"
+  )
+
 })
